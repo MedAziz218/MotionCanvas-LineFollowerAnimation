@@ -178,29 +178,30 @@ export default makeScene2D(function* (view) {
   // yield* progressRobot1(0,2,linear)
 
   // yield* progressRobot1(1-0.25, 2,linear);
+  const x = 3;
   const robot1Ainmation = progressRobot1(0, 0, linear)
-    .to(0.25, 2.5)
-    .to(0.29, 1) // awal nos dora
-    .to(0.35, 1.4) // cercle
-    .to(0.39, 1.7) // wrench
-    .to(0.5, 2) // ba3d e zouz 5tout
+    .to(0.25, 2.5 *x)
+    .to(0.29, 1 *x) // awal nos dora
+    .to(0.35, 1.4 *x) // cercle
+    .to(0.39, 1.7*x) // wrench
+    .to(0.5, 2*x) // ba3d e zouz 5tout
 
-    .to(0.6, 2) // dora l5rayba fel wst
+    .to(0.6, 2*x) // dora l5rayba fel wst
 
-    .to(0.65, 1) // chtar loul
-    .to(0.68, 0.35) // partie mestwya ejryyy feha
-    .to(0.71, 0.7) // chtar theni
-    .to(0.74, 0.7) // kamalna dora l5ayba
+    .to(0.65, 1*x) // chtar loul
+    .to(0.68, 0.35*x) // partie mestwya ejryyy feha
+    .to(0.71, 0.7*x) // chtar theni
+    .to(0.74, 0.7*x) // kamalna dora l5ayba
 
-    .to(0.83, 1.4) // 5touut met9att3aa
-    .to(0.98, 1.4)
-    .to(0.999, 1.4, easeOutCubic); // total duration 16.29
+    .to(0.83, 1.4*x) // 5touut met9att3aa
+    .to(0.98, 1.4*x)
+    .to(0.999, 1.4*x, easeOutCubic); // total duration 16.29
   
   const robot2Animation = progressRobot2(0,0,linear)
-  .to(0.98, 14)
-  .to(0.999, 1.4, easeOutCubic);;
+  .to(0.98, 14*x)
+  .to(0.999, 1.4*x, easeOutCubic);;
   
-  yield* waitFor(0.4);
+  yield* waitFor(1.5);
   yield* all(robot1Ainmation, robot2Animation);
   yield* waitFor(0.25);
 
