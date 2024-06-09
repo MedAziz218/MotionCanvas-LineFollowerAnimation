@@ -4,7 +4,7 @@ Sure, here's an improved version of your README file:
 
 # MotionCanvas-LineFollowerAnimation
 
-Welcome to **MotionCanvas-LineFollowerAnimation**, a project designed to create animations for the RoboCup 6.0 ENSI's Line Follower Challenge using the MotionCanvas library.
+**MotionCanvas-LineFollowerAnimation**, is a project used to create animation for the RoboCup 6.0 ENSI's Line Follower Challenge using the MotionCanvas library.
 
 ## What is MotionCanvas?
 
