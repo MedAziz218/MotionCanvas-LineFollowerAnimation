@@ -41,4 +41,4 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 
 Once the project is running, you can view the animation in your web browser. The development server should automatically open a new tab with the animation. If not, you can manually navigate to `http://localhost:8080`.
 
-![](https://github.com/MedAziz218/MotionCanvas-LineFollowerAnimation/blob/main/prev.gif)
+![](https://github.com/MedAziz218/MotionCanvas-LineFollowerAnimation/blob/main/images/preview.gif)
